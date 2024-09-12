@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafia's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2b19663d67.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id=header>
+        <div class="container">
+            <nav>
+                <!-- <img src="./images/personal-portfolio-img/images/rafia portfolio logo image.jpg" alt="logo image" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i> -->
+                </ul>
+                <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
+            </nav>
+            <div class="header-text">
+                <p> Frontend Web Developer</p>
+                <h1>Hi, I'm <span>Rafia</span></br>from Bangladesh</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/personal-portfolio-img/images/my photo.jpg" alt="user photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>To leverage my programming skills and passion for technology to contribute to the development of innovative software solutions. Seeking a challenging role as a developer where I can utilize my knowledge of programming languages, problem-solving abilities, and attention to detail to create efficient and user-friendly applications. Committed to continuous learning and staying up-to-date with emerging technologies in order to deliver high-quality software products that meet the needs of users and businesses.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p> 
+                        <p class="tab-links" onclick="opentab('experience', event)">Experience</p> 
+                        <p class="tab-links" onclick="opentab('education', event)">Education</p>                  
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Digital Marketing</span><br>Facebook ad Marketing/Instagram ad Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-current</span><br>Full Time Mom</li>
+                            <li><span>2019-2022</span><br>Assistant Manager at Pran-RFL group of Bangladesh</li>
+                            <li><span>2018-2019</span><br>Data Enumerator at Winrock International</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Web Development Training online</li>
+                            <li><span>2018</span><br>MSc. from Khulna University</li>
+                            <li><span>2016</span><br>BSc. from Jessore University of Science and Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!----------services---------------------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-regular fa-code-fork"></i>
+                <h2>Web Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit iure voluptatum minima ratione aperiam doloremque ipsam ea corporis quo!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit iure voluptatum minima ratione aperiam doloremque ipsam ea corporis quo!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum impedit iure voluptatum minima ratione aperiam doloremque ipsam ea corporis quo!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+   <!-----------portfolio---------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/personal-portfolio-img/images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>the app connect you the talented people around the world.Download it from playstore.</p>
+                        <a href="#"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/personal-portfolio-img/images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>the app connect you the talented people around the world.Download it from playstore.</p>
+                        <a href="#"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/personal-portfolio-img/images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>the app connect you the talented people around the world.Download it from playstore.</p>
+                        <a href="#"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!--------contact------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>123456788</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i> </a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i> </a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./images/personal-portfolio-img/images/my-cv.pdf" download   class="btn btn2">Download CV</a> <!---downloaded file er jnno + button ke left e soranor jonno btn2 class abar add kora holo-->
+                </div>
+                <div class="contact-right">
+                     <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                     </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Rafia. Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname,event){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }   
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
